@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import "compass/css3";
+
+/*Main Color:  #013440*/
+/*Secondary Colar:  White*/
+/*Text Color: #42403C*/
+/**{
+	outline:  1px solid red;
+}*/
+i{
+	font-family: 'Nunito', sans-serif;
+	margin: 5px;
+	margin-left: 60px;
+	padding: 5px;
+}
+body{
+	
+	background: white;
+	color: #42403C;
+	font-family: 'Nunito', sans-serif;
+	
+}
+p{
+	text-align: justify;
+	text-justify: inter-word;
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+.nav-links{
+	text-decoration: none;
+	color: #42403C;
+	padding: 0px;
+	margin: 5px;
+	font-size: 2rem;
+	font-family: 'Dongle', sans-serif;
+	transition: border-bottom 1s;
+	border-bottom: 2px solid white;
+}
+.nav-links:hover{
+	text-decoration: none;
+	color: #42403C;
+	border-bottom: 2px solid #013440;
+}
+
+#nav, #logo{
+	display: inline-block;
+}
+
+#head{
+	padding: 30px;
+	margin-top: 20px;
+
+}
+.title{
+	margin-left: 40px;
+	font-weight: bolder;
+}
+
+.social-links{
+	text-decoration: none;
+	color: #42403C;
+	font-size: 40px;
+}
+
+	
+footer{
+	margin-top: 20px;
+}
+h3{
+	font-weight: bold;
+}
