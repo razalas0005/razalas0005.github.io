@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
-@import "compass/css3";
+
 
 /*Main Color:  #013440*/
 /*Secondary Colar:  White*/
 /*Text Color: #42403C*/
 /**{
 	outline:  1px solid red;
-}*/
-i{
+}
+*/i{
 	font-family: 'Nunito', sans-serif;
 	margin: 5px;
 	margin-left: 60px;
@@ -68,7 +68,7 @@ p{
 footer{
 	margin-top: 20px;
 }
-h3{
+h3 h4{
 	font-weight: bold;
 }
 
@@ -79,4 +79,19 @@ h3{
 	position: fixed;
 	bottom: 0;
 	right: 0;
+}
+
+.card-titles{
+	text-decoration: none;
+	color: #42403C;
+}
+
+.card-titles{
+	transition: 0.4s;
+}
+
+.card-titles:hover{
+	text-decoration: none;
+	color: #42403C;
+	box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);		
 }
