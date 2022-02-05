@@ -104,7 +104,7 @@ img{
 
 	.insta-img{
 		width: 100%;
-		margin: 5px;
+		margin: auto;
 	}
 	.insta-container{
 		display: flex;
