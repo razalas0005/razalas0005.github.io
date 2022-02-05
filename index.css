@@ -7,8 +7,8 @@
 /*Text Color: #42403C*/
 /**{
 	outline:  1px solid red;
-}
-*/i{
+}*/
+i{
 	font-family: 'Nunito', sans-serif;
 	margin: 5px;
 	margin-left: 60px;
@@ -73,14 +73,16 @@ h3 h4{
 }
 
 #up-btn{
-
+	z-index: 1;
 	width: 50px;
 	height: 50px;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 }
-
+.card{
+	width: 18rem;
+}
 .card-titles{
 	text-decoration: none;
 	color: #42403C;
@@ -100,4 +102,99 @@ h3 h4{
 .list-group-item:hover{
 	transition: 0.2s;
 	border-left: 5px solid lightgrey;
+}
+
+#head{
+	display: flex;
+	justify-content: space-around;
+}
+#certificates{
+	width: 25%;
+}
+.card{
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 18rem;
+}
+
+#intro{
+	width: 85%;
+	margin: auto;
+}
+
+#footer-text{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#footer-hr{
+	width: 75%;
+	margin: auto;
+}
+footer{
+	margin: auto;
+	width: 75%;
+
+}
+
+.footer-icon{
+	font-family: 'Nunito', sans-serif;
+	margin: 5px;
+	margin-left: 60px;
+	padding: 5px;
+}
+
+
+/*Responsive Mode*/
+
+@media screen and (max-width: 600px){
+
+	.d-flex{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.w-50, .p-2, #intro-img{
+		width: 100%;
+		margin: auto;
+	}
+	
+	#head{
+		background-color: white;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+	#certificates{
+		width: 100%;
+	}
+	.about-items{
+		margin-left: 45px;
+		margin-right: 20px;
+	}
+
+	#logo{
+		margin-left: 40px;
+	}
+
+	.card{
+		margin: auto;
+		margin-bottom: 15px;
+		width: 20rem;
+	}
+
+	#footer-hr{
+		width: 100%;
+	}
+
+	#footer-text{
+		
+		float: left;
+		text-align: center;
+		width: 70%;
+	}
+	
+	.footer-icon{
+		margin: auto;	
+	}
 }
