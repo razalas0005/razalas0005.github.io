@@ -109,6 +109,7 @@ img{
 	.insta-container{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.literary-intro-container{
