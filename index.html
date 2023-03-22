@@ -1,224 +1,235 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Francis Salazar | BSIT Student</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Francis Salazar</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/9412278571.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
 
-	<link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        
 
-	<script src="https://kit.fontawesome.com/9412278571.js" crossorigin="anonymous"></script>
+        <div class="container vh-100">
+            <nav class="navbar navbar-expand-lg">
+                <i class="fa-solid fa-atom"></i>
+                <span class="navbar-brand ms-2" href="#">Francis Salazar</span>
+                <button class="navbar-toggler custom-toggler"       
+                        type="button" 
+                        data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects & Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certificates">Certificates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row my-auto">
+                <div class="col-lg-6 pt-5">
+                    <p class="font-title color-white">Hi I'm a Web and Software Developer</p>
+                    <p class="font-content color-white">I mainly use Python for development and practice but, I also have knowledge about Web Development</p>
+                    <a href="#projects" class="custom-btn">View Projects</a>
+                </div>
+                <div class="col pt-5">
+                    <img src="img/front-img.png" alt="hello">
+                </div>
+            </div>
+        </div>
 
-</head>
-<body>
-	<!-- Navigation Bar/Home -->
-	<div class="h-100 mb-5" id="home">
-		
-		<div id="head">
-			<div id="nav">
-				<a href="#projects" class="nav-links">Projects</a>
-				<a href="#about" class="nav-links">About Me</a>
-				<a href="#contact" class="nav-links">Contact Info</a>	
-			</div>
-			<div id="logo">
-				<h1><b>F.</b></h1>
-			</div>
-			
-		</div>
-		<div class="d-flex justify-content-around" id="intro">
+        <div class="container py-5 vh-100" id="education">
+            <div class="row my-auto pt-5">
+                <div class="col-lg-6 ">
+                    <h3 class="color-white font-title">Educational <br>Background</h3>
+                    <p class="text-justify color-white font-content inter">Most of my experience as a student is either related to designing or developing. My experience in teaching and system development mostly comes from freelancing and self-study. My capstone project helped me improve my programming skills, especially in web development and python.</p>
+                </div>
+                <div class="col-lg-6">
+                    <table class="w-100">
+                        <tr>
+                            <td class="text-top w-25 color-white">2018-2023</td>
+                            <td class="w-75">
+                                <h4 class="color-white mb-3">Cavite State University-Main Campus</h4>
+                                <p class="color-white inter">BS Information Technology</p>
+                                <p class="color-white inter mb-3">Consistent Dean’s Lister (GWA 1.36)</p>                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-top w-25 color-white">2016-2018</td>
+                            <td class="w-75">
+                                <h4 class="color-white mb-3">Rosario Institute</h4>
+                                <p class="color-white inter">TVL-ICT Computer Programming (Java)</p>
+                                <p class="color-white inter mb-3">With Honors & Best in ICT</p>                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-top w-25 color-white">2012-2016</td>
+                            <td class="w-75">
+                                <h4 class="color-white mb-3">Rosario Institute</h4>
+                                <p class="color-white inter mb-3">Junior High School</p>
+                                                             
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-top w-25 color-white">2006-2012</td>
+                            <td class="w-75">
+                                <h4 class="color-white mb-3">Rosario Elementary School</h4>
+                                <p class="color-white inter mb-3">Primary School</p>
+                                                             
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
 
-			<div class="p-2 flex-item">
-				<img src="static/Programmer.gif" width="480px" height="360px" id="intro-img">
-			</div>
+        <div class="container p-5 my-5" id="projects">
+            <h2 class="font-title color-white text-center mb-5">Projects & Skills</h2>
+            <div class="row white-box">
+                <div class="col-lg-6 pt-5 text-center align-items-stretch">
+                    <div class="h-100 py-5 d-flex flex-column">
+                        
+                        <i class="fa-solid fa-laptop-code projects-icon"></i>
+                        <div>
+                            <h2 class="inter font-weight-bold   ">Software Developer</h2>
+                            <p class="inter">Short Description about what I do?</p>
+                        </div>
+                        
+                        <div>
+                            <p class="inter font-weight-bold color-main">
+                                Languages I use:
+                            </p>
+                            <p class="inter">
+                                Python, JavaScript, Java, C++
+                            </p>
+                        </div>
 
-			<div class="p-2 w-100">
-				<b>
-				<h3>My name is</h3>	
-				<h1>Francis C. Salazar</h1>
-				</b>
-				<p>I am a persistent, hardworking, and consistent dean's lister of the <b>Bachelor of Science in Information Technology at Cavite State University-Main Campus</b>. With almost four years of experience in coding and problem solving within the university and some independent research, studying, programming, and designing projects. I am looking to apply for a position as software or a web developer at your company to gain real-world experience, and expand my knowledge about Information Technology.</p>
-			</div>
-			
-		</div>	
-		
-	</div>
+                        
+                        <a href="projects_1.html" class="custom-btn inter mb-5">See Project/s</a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 pt-5 text-center align-items-stretch">
+                    <div class="h-100 py-5 d-flex flex-column">
+                        <i class="fa-solid fa-globe projects-icon"></i>
+                        <div>
+                            <h2 class="inter font-weight-bold   ">Web Developer</h2>
+                            <p class="inter">Short Description about what I do?</p>
+                        </div>
+                        
+                        <div>
+                            <p class="inter font-weight-bold color-main">
+                                Things I developed:
+                            </p>
+                            <p class="inter">
+                                UI, UX, Web Apps, PHP, HTML, CSS, & JavaScript
+                            </p>
+                        </div>
+
+                        
+                        <a href="projects_2.html" class="custom-btn inter mb-5">See Project/s</a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container-fluid my-5 h-100" id="certificates">
+            <h2 class="font-title color-white text-center my-5">Certificates</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 m-2 text-center project-cards">
+                    <h3 class="inter font-weight-bold">JavaScript Algorithms & Data Structures</h3>
+                    <div class="d-flex flex-row justify-content-center ">
+                        <i class="fa-brands fa-free-code-camp"></i>
+                        <p class="inter align-middle">FreeCodeCamp.org</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <a href="https://www.freecodecamp.org/certification/laminatedking/javascript-algorithms-and-data-structures" class="inter">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 m-2 text-center project-cards">
+                    <h3 class="inter font-weight-bold">Responsive Web Design</h3>
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="fa-brands fa-free-code-camp"></i>
+                        <p class="inter align-middle">FreeCodeCamp.org</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <a href="https://www.freecodecamp.org/certification/laminatedking/responsive-web-design" class="inter">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 m-2 text-center project-cards">
+                    <h3 class="inter font-weight-bold">Cyber Security Threat Management</h3>
+                    <div class="d-flex flex-row justify-content-center ">
+                        <i class="fa-sharp fa-solid fa-school"></i>
+                        <p class="inter align-middle">Cavite State University</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <a href="https://drive.google.com/file/d/1JKGwVud-gBLBhK95A5rzEsf8-LHgZknG/view?usp=sharing" class="inter">View Certificate</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <footer class="container-fluid mt-5 pt-4 w-100" id="contact">
+            <div class="row mx-0">
+                <div class="col-lg-6">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 d-flex flex-row m-3 contact-card">
+                            <div class="icon-center">
+                                <i class="fa-solid fa-envelope "></i>
+                            </div>
+                            <div class="col-lg-9 col-sm-3">
+                                <p class="inter">Send me an Email</p>
+                                <p class="inter font-weight-bold">francis.salazar@cvsu.edu.ph</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex flex-row m-3 contact-card">
+                            <div class="icon-center">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="col-lg-9 col-sm-9 w-100">
+                                <p class="inter">Give me a call</p>
+                                <p class="inter font-weight-bold">0945 802 5764</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                    <div class="inter">
+                        Handcrafted by yours truly @twentytwentythree
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        
 
 
-	<!-- Projects/Skills -->
-	<div id="projects" class="h-100 mb-5">
-		<h2 class="title">Projects and Skills</h2>
-		<div class="d-flex justify-content-center">
-			<div class="card">
-				<a href="projects/designing.html" class="card-titles">
-					<img src="static/Design.gif" height="285px" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4>Designing</h4>
-						<p class="card-text">Providing professional-looking designs for your different needs like social media posts or presentations using Canva.</p>  
-					</div>
-				</a>
-			</div>
-
-			<div class="card">
-				<a href="projects/programming.html" class="card-titles">
-					<img src="static/Coding.gif" height="285px" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4>Programming</h4>
-						<p class="card-text">Developing and programming applications, websites, and games that are easy to use and pleasing to the eyes. </p>  
-					</div>
-				</a>
-			</div>
-
-			<div class="card">
-				<a href="projects/writing.html" class="card-titles">
-					<img src="static/Writing.gif" height="285px" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4>Writing</h4>
-						<p class="card-text">Expressing ideas, sharing stories, and giving perspective through creating literary works like poems and short stories. </p> 
-						
-					</div>
-				</a>
-			</div>
-
-			<div class="card">
-				<a href="projects/pixel.html" class="card-titles">
-					<img src="static/Pixel.png" height="285px" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4>Pixel Art</h4>
-						<p class="card-text">Showcasing arts from our retrospective games that we enjoyed as a kid but still relevant and eye-catching in today's world.
-
-						
-						</p>  
-					</div>
-				</a>
-			</div>
-		</div>
-
-	</div>
-
-	<!-- About me  -->
-	<div id="about" class="h-100 mb-5">
-		<h2 class="title">About Me</h2>
-		<!-- Work Experience -->
-		<div class="d-flex justify-content-around about-items">
-			<div>
-				<h3>Experience</h3>
-				<ul class="list-group list-group-flush">				
-					<li class="list-group-item">
-						<h5>Capstone Project and Research</h5>
-						<p>Lead System Developer</p>
-						<p>Cavite State University-Main Campus</p>
-						<p>2021-2022</p>
-					</li>
-
-					<li class="list-group-item">
-						<h5>Capstone Project and Research</h5>
-						<p>Lead Documentation Writer</p>
-						<p>Cavite State University-Main Campus</p>
-						<p>2021-2022</p>
-					</li>
-					
-					<li class="list-group-item">
-						<h5>Work Immersion</h5>
-						<p>Hardware Technician</p>
-						<p>At Combase IT Solutions</p>
-						<p>Rosario, Cavite</p>
-						<p>2018</p>
-					</li>
-				</ul>
-			</div>
-
-			<!-- Education -->
-			<div>
-				<h3>Education</h3>
-
-				<ul class="list-group list-group-flush">				<li class="list-group-item">
-						<h5>Tertiary Education</h5>
-						<p>Cavite State University-Main Campus</p>
-						<p>BS Information Technology</p>
-						<p>Consistent Dean's Lister</p>
-						<p>2018-Present</p>
-					</li>
-					<li class="list-group-item">
-						<h5>Senior High School</h5>
-						<p>Rosario Institute</p>
-						<p>ICT-Computer Programming (Java)</p>
-						<p>With Honors and Best in ICT</p>
-						<p>2016-2018</p>
-					<li class="list-group-item">
-						<h5>Junior High School</h5>
-						<p>Rosario Institute</p>
-						<p>2012-2016</p>
-					</li>
-					<li class="list-group-item">
-						<h5>Primary Education</h5>
-						<p>Rosario Elementary School</p>
-						<p>2006-2012</p>
-					
-				</ul>
-			</div>	
-			<!-- Certificates -->
-			<div id="certificates">
-				<h3>Certificates</h3>
-
-				<ul class="list-group list-group-flush">				<li class="list-group-item">
-						<h5>Cybersecurity Threat Management</h5>
-						<p>2021</p>
-					</li>
-					<li class="list-group-item">
-						<h5>Cybersecurity: How to Prevent, Detect and React from Cyber Threats & Attacks</h5>
-						<p>Cavite State University (Department of Information Technology)</p>
-						<p>2021</p>
-					<li class="list-group-item">
-						<h5>Data Privacy Awareness for the Academe </h5>
-						<p>Cavite State University (Department of Information Technology)</p>
-						<p>2021</p>
-					</li>
-					
-					
-				</ul>
-			</div>
-			
-		</div>
-		
-	</div>
-
-	<!-- Contact Info and Socials -->
-	<div class="d-flex justify-content-around h-100 mb-5" >
-		<!-- Contact -->
-		<div id="contact">
-			<h2 class="title">Contact Information</h2>
-			<!-- Contact Information mo  -->
-			<i class="fas fa-at"></i><p style="display: inline;">francis.salazar@cvsu.edu.ph</p>
-			<br>
-			<i class="fas fa-mobile-alt"></i><p style="display: inline;">0945 802 5764</p>
-			<br>
-			<i class="fas fa-map-marker-alt"></i><p style="display: inline;">402 Marseilla Street Muzon 1 Rosario, Cavite</p>
-		</div>
-		<div>
-			<h2 class="title">Social</h2>
-			<!-- Github Insta -->
-			<a href="https://www.instagram.com/firstseat005/" class="social-links"><i class="fab fa-instagram"></i></a>
-			
-			<a href="https://github.com/razalas0005" class="social-links"><i class="fab fa-github"></i></a>
-		</div>	
-		<!-- <div id="logo">
-			<h1><b>F.</b></h1>
-		</div> -->
-	</div>
-	
-	<a id="up-btn" class="btn btn-outline-dark" href="#top">top</a>
-	
-	<!-- footer -->
-	<footer>
-		<hr>
-		<p class="text-center"><i class="far fa-copyright footer-icon"></i> Website designed and coded by Francis C. Salazar (2022)</p>
-	</footer>
-
-	<!-- Scripts -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-	
-</body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/9412278571.js" crossorigin="anonymous"></script>
+    </body>
 </html>

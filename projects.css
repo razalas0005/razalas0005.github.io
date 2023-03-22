@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Yusei+Magic&display=swap');
+
+:root {
+    /* Fonts */
+    --yusei: 'Yusei Magic', sans-serif;
+    --inter: 'Inter', sans-serif;
+    
+    /* Font-Sizes */
+    --title: 3rem;
+    --caption: 2rem;
+    --content: 1rem;
+    
+    /* Colors */
+    --main-color: #359C9C;
+    --secondary-color: #29274C;
+    --attention-color: #FFB6F3;
+}
+
+*{
+    /* outline: 1px solid red; */
+    font-family: var(--inter);
+    color: black;
+}
+
+#name{
+    color: var(--main-color);
+    font-size: 1.325rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.font-title{
+    font-size: var(--title);
+}
+
+.font-caption{
+    font-size: var(--caption);
+}
+
+.font-content{
+    font-size: var(--content);
+}
+
+article{
+    border-bottom: 2px solid rgb(197, 197, 197);
+    margin: 0 0 50px 0;
+}
+
+figure{
+    border-radius: 15px;
+    background-color: rgb(221, 221, 221);
+}
+
+figure > img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+figcaption{
+    padding: 5px 0;
+    margin: 0 15px 15px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+}
+
+footer{
+    padding: 15px;
+}
+
+nav{
+    font-family: var(--inter);
+    background-color: var(--main-color);
+}
+
+.breadcrumb{
+    background-color: var(--main-color);
+}
+
+.breadcrumb-item > a{
+    color: var(--secondary-color);
+}

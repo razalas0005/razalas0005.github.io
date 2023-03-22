@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Francis Salazar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/9412278571.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <nav aria-label="container">
+        <ol class="container breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active text-white">Projects</li>
+        </ol>
+    </nav>
+    <article class="container">
+        <img src="img/projects01.jpg" alt="Photo by John Tekeridis: https://www.pexels.com/photo/person-using-smartphone-340103/" class="img-fluid ">
+        <h2 class="font-weight-bold font-caption">Spotify to MP3 using Python</h2>
+        <caption>
+            <p class="font-content" id="name">Francis Salazar</p>
+            <p class="font-content" id="date">March 10, 2023</p>
+        </caption>
+        
+        <p class="text-justify">
+            In today's digital age, music has become more accessible than ever before. Streaming services like Spotify have made it easy to listen to millions of songs from anywhere in the world. However, the downside of this convenience is that you need a stable internet connection to stream your favorite songs. Additionally, if you want to share your favorite tracks with friends or listen to them offline, you need to download them or pay a monthly subscription. And since I'm a cheapskate, I choose the hard way.
+        </p>
+        <p class="text-justify">
+            I had this idea while traveling to my school, and I have no mobile data available, so I can't stream my favorite music while on the road using Spotify. And since I'm lazy about downloading and searching my songs on YouTube and downloading them on a YouTube to MP3 website, I just created this Python script. Instead of taking around fifteen minutes to download all the songs on my playlist, I choose to develop this program and, it took me around two hours of reading the documentation of the API that I used, thirty minutes to code, and one and a half hours of debugging.
+        </p>
+
+        <p class="text-justify">
+            The three major APIs that I used in this project are the following: spotipy, pytube, and youtubesearchpython. Basically, the flow of the script is just to fetch the data from Spotify by asking the user for their playlist and pasting the link to the prompt. Afterward, the script will automatically search for the songs on YouTube. The data from the searched songs will be filtered and the script will only take the link of the song and pass it to the pytube to download it. The script also automatically creates a folder based on the name of the playlist and will redirect the download to the default Music Folder. 
+        </p>
+
+        <figure>
+            <img src="img\screenshot1.PNG" alt="Screenshot of the Script when asking the user to enter the link of the playlist" class="img-fluid">
+            <figcaption>Figure 1. Screenshot of the script running from the Terminal.</figcaption>
+        </figure>
+
+        <p class="text-justify">
+            Below is the code for this project.
+        </p>
+
+        <figure>
+            <script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Frazalas0005%2FSpotify-to-MP3%2Fblob%2Fmain%2Fapp.py&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+            <figcaption>Figure 2. Code Snippet of the Spotify to MP3 downloader using Python.</figcaption>
+        </figure>
+        
+    </article>
+    
+    
+    <footer class="container">
+        <p class="text-center">Handcrafted by yours truly @twentytwentythree</p>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9412278571.js" crossorigin="anonymous"></script>
+</body>
+</html>
